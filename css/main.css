@@ -1,0 +1,19 @@
+section {
+    display: inline;
+}
+
+.right{
+    position: absolute;
+    right: 0px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    display: inline-flex;
+}
