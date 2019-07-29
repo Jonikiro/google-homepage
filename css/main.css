@@ -1,19 +1,24 @@
-section {
-    display: inline;
+body{
+    font: 13px arial, sans-serif;
+}
+nav{
+    display: grid;
+    margin: 20px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
 }
 
 .right{
-    position: absolute;
-    right: 0px;
+    text-align: right;
 }
 
 main{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
+    margin: 180px 0px 0px;
 }
 
-button{
-    display: inline-flex;
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
